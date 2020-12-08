@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="container text-center">
+    <h1>Rock, Paper, Scissors</h1>
+    <p>Select either rock, paper or scissors and see if you can beat the computer!</p>
+    <p><strong>Remember:</strong>Rock breaks scissors, scissors cuts paper, paper covers rock.</p>
+    <button onclick="getResult('rock')" class="btn btn-primary">ROCK</button>
+    <button onclick="getResult('paper')" class="btn btn-success">PAPER</button>
+    <button onclick="getResult('scissors')" class="btn btn-danger">SCISSORS</button>
+    <p id="result">...</p>
+    </div>
+  </body>
+</html>
